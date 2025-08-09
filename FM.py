@@ -1,20 +1,3 @@
-# modify
-
-import torch
-import torch.nn as nn
-import torch.optim as optim
-import torch.nn.functional as F
-import numpy as np
-import matplotlib.pyplot as plt
-from torch.utils.data import DataLoader, TensorDataset
-from sklearn.datasets import load_digits, make_swiss_roll
-from sklearn.decomposition import PCA
-from sklearn.manifold import TSNE
-from scipy import integrate
-from sklearn.preprocessing import StandardScaler
-import random
-import os
-
 # --- new imports for openTSNE and sparse handling ---
 from openTSNE import affinity
 from scipy import sparse
